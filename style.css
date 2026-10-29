@@ -1,0 +1,257 @@
+
+/* Basic Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F0E7;
+    color: #38291F;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: wheat;
+    border: 1px solid #D9CABB;
+    border-radius: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #38291F;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #796B60;
+}
+
+.nav-links a:hover {
+    color: #795A43;
+}
+
+/* Home Section */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10%;
+    gap: 40px;
+}
+
+.intro {
+    width: 60%;
+}
+
+.intro h1 {
+    font-family: Georgia, serif;
+    font-size: 55px;
+    margin-top: 10px;
+}
+
+.intro h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    margin-bottom: 15px;
+}
+.intro h6{   
+    font-size:50px;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border: 3px solid #795A43;
+    border-radius: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #38291F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px 5px 5px 0;
+}
+
+.button:hover {
+    background-color: #795A43;
+}
+
+/* Welcome Section */
+
+.section {
+    padding: 50px 10%;
+    border-top: 1px solid #D9CABB;
+}
+
+.section h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.section p {
+    color: #796B60;
+}
+
+
+/* Homepage Showcase Cards */
+
+.cards {
+    background-color: rgb(190, 163, 112);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+    padding:50px 20px;
+}
+
+.card {
+    background-color: #FBF8F3;
+    border: 1px solid #D9CABB;
+    padding: 25px;
+    width: 33%;
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: #795A43;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #38291F;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #D9CABB;
+    color: #796B60;
+}
+
+/* About sec */
+
+.about {
+    padding: 50px 10%;
+    border-top: 1px solid #D9CABB;
+}
+
+.about h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 20px;
+    color: #796B60;
+}
+/*Skills*/
+.skills {
+    padding: 50px 10%;
+    margin:30px;
+    border-top: 1px solid #D9CABB;
+}
+
+.skills h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+
+.skills p {
+    font-size: 20px;
+    color: #796B60;
+}
+/*Projects*/
+.project {
+    padding: 50px 10%;
+    margin:30px;
+    border-top: 1px solid #D9CABB;
+}
+
+.project h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 20px;
+    color: #796B60;
+}
+/*Achivements*/
+.achievements {
+    padding: 50px 10%;
+    margin:30px;
+    border-top: 1px solid #D9CABB;
+}
+
+.achievements h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+
+.achievements p {
+    font-size: 20px;
+    color: #796B60;
+}
+/*Contact*/
+.contact {
+    padding: 50px 10%;
+    margin:30px;
+    border-top: 1px solid #D9CABB;
+}
+
+.contact h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 20px;
+    color: #796B60;
+}
